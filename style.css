@@ -2,41 +2,50 @@ table {margin: 0 auto;
     border-collapse: collapse; 
     width: 50%;
     }
-    table, th, td {
+    
+table, th, td {
       border: 1px solid black;
     }
-    th {height: 50px; 
+    
+th {height: 50px; 
     text-align: left; 
-    background-color: DarkSalmon; 
+    background-color: #299617; 
     color: white; 
     text-transform: uppercase; 
     font-family: Helvetica; 
     font-size: 14px;
     }
-    th, td {
+    
+th, td {
       padding: 15px; 
       text-align: left;
     }
-    tr:nth-child(even) {
-      background-color: MistyRose;
+    
+tr:nth-child(even) {
+      background-color: #3cb3729a;
     }
-    a, li {
-      color: DarkSalmon; 
+    
+a, li {
+      color: #299617; 
       font-weight: bold;
     }
-    .code {
+    
+.code {
       font-family: Courier, Monaco, monospace; 
       font-size: 13px;
     }
-    html, body {
+    
+html, body {
       width: 100%; 
       text-align: center; 
       background-color: FloralWhite;
     }
-    nav {
+    
+nav {
       text-align: left !important
     }
-    h1, h2, ul {
-      color: FireBrick; 
+    
+h1, h2, ul {
+      color: #299617; 
       font-family: Helvetica;
     }
